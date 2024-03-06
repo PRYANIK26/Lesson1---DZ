@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cc7bde06e20ea24bb6e1dc03c2d221e, type: 3}
+  m_Name: GunsConfig
+  m_EditorClassIdentifier: 
+  _pistolConfig:
+    _patronsCount: 10
+    _patronsPerShot: 1
+    _bulletSpeed: 500
+    _bulletPrefab: {fileID: 8873094876137173909, guid: c974e926739d01d4fa4a9fbea8da0890,
+      type: 3}
+  _rifleConfig:
+    _patronsCount: 0
+    _patronsPerShot: 1
+    _bulletSpeed: 1500
+    _bulletPrefab: {fileID: 8873094876137173909, guid: c974e926739d01d4fa4a9fbea8da0890,
+      type: 3}
+  _shotgunConfig:
+    _patronsCount: 30
+    _patronsPerShot: 3
+    _bulletSpeed: 1000
+    _bulletPrefab: {fileID: 8873094876137173909, guid: c974e926739d01d4fa4a9fbea8da0890,
+      type: 3}
